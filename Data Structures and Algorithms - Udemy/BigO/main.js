@@ -1,6 +1,6 @@
-  const namelist = ['Ben', 'Alice']
+const namelist = ['Ben', 'Alice']
 
-function findName(array, name){
+function findName(array, name) {
   for (let i = 0; i < array.length; i++) {
     if (array[i] === name) {
       console.log('Found!')
